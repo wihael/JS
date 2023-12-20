@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Afacad&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f2;
+}
+
+.naslov {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+  gap: 5px;
+}
+
+.naslov p {
+  font-size: 2rem;
+  padding-top: 7px;
+}
+
+h1 {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#loading {
+  display: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+header input {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+#query {
+  width: 15%;
+  margin: 0 auto;
+  padding: 5px 0;
+  border-radius: 5px;
+  font-family: "Afacad", sans-serif;
+  font-size: 15px;
+}
+
+.result {
+  border: 1px solid black;
+  margin: 0 5px;
+  max-width: 400px;
+}
+
+.row {
+  justify-content: center;
+  margin-top: 2rem;
+}
